@@ -47,7 +47,7 @@
 | `node --test apps/web/tests/*.test.ts` | 32/44 통과. 실패 12건은 WebKit 실행 불가로 생긴다. Arch host에 Ubuntu 전용 라이브러리(`libicu74`, `libflite1`)가 없다 |
 | `npm test` (DB 필요) | 미실행. 현재 계정이 `docker` 그룹에 없다 |
 
-전체 검사는 GitHub Actions의 `Check` workflow가 실행한다. ubuntu runner에서 DB 테스트, 브라우저 테스트, docker compose smoke check를 돌린다.
+전체 검사는 GitHub Actions의 `Check` workflow가 실행한다. ubuntu runner에서 DB 테스트, 브라우저 테스트, docker compose smoke check를 돌린다. 기본 세팅 commit `a21b65d`에서 `check`, `docker` job이 모두 통과했다.
 
 ## 처음 실행하기 전에
 
