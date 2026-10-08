@@ -1,5 +1,7 @@
 # 给 Agent 的说明
 
+> **GAMEHOT 포크**: 이 저장소는 AIHOT을 포크한 게임 업계 대시보드 GAMEHOT이다. 작업 전에 [`GAMEHOT.md`](GAMEHOT.md)를 먼저 읽어라.
+
 这是一个行业热点网站的框架：采集信源、用模型筛选和写作、归组事件、出日报周报月报，并通过网站、RSS、公开 API、Agent Markdown 和 MCP 对外提供。默认配置是一个 AI 行业的示例站。先读 README，再按任务读 `docs/` 里对应的文档。
 
 ## 最常见的任务：改成另一个行业
